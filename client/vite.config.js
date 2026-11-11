@@ -8,11 +8,11 @@ export default defineConfig({
     server: {
         port: 5173,
         proxy: {
-             // habit is right because it will matter once you add Supabase or a CDN.
-      '/api': {
-        target: 'http://localhost:4000',
-        changeOrigin: true,
+            // habit is right because it will matter once you add Supabase or a CDN.
+            '/api': {
+                target: 'http://localhost:4000',
+                changeOrigin: true,
+            },
         },
     },
-},
 });
