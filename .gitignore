@@ -1,0 +1,30 @@
+# KELVINATE monorepo — things Git must never see.
+
+# Dependencies
+node_modules/
+
+# Environment files (the .example files are committed on purpose)
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+.vite/
+
+# Logs
+*.log
+npm-debug.log*
+logs/
+
+# Test coverage
+coverage/
+
+# macOS noise
+.DS_Store
+
+# Editor — keep shared settings, ignore the rest
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json

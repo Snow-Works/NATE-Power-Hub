@@ -1,0 +1,11 @@
+{
+    "name": "kelvinate",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "workspaces": ["client", "server"],
+    "scripts": {
+        "dev:server": "npm --workspace server run dev",
+        "dev:client": "npm --workspace client run dev"
+    }
+}
