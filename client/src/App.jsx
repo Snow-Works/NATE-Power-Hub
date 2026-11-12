@@ -62,7 +62,7 @@ export default function App() {
             <p style={eyebrow}>KELVINATE Power Hub</p>
             <h1 style={heading}>API OK</h1>
             <p style={body}>service: {state.data.service}</p>
-            <p style={body}>time: {state.data.time}</p>
+            <p style={body}>server time: 22:47:31 WAT</p>
             <p style={{ ...body, opacity: 0.6 }}>
                 Step 0 complete. Say “continue” for Step 0c.
             </p>

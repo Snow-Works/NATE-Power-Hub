@@ -10,3 +10,19 @@
 
 ## Step 0b — Vite + React client (not started)
 ## Step 0c — ESLint + Prettier + shared env conventions (not started)
+
+
+
+
+## Step 0b — Vite + React client — DONE (2026-11-11)
+- client/ workspace: Vite 5 + React 18, no TypeScript (project rule).
+- Vite dev proxy: /api → http://localhost:4000 (dev only; prod CORS handled server-side).
+- App.jsx fetches GET /api/health with AbortController + cancelled flag; renders
+  API OK / API DOWN / Checking… states. Negative test verified.
+- Deliberately no React Router / TanStack Query / Tailwind / other stack deps yet.
+  They land in the steps that need them.
+- Step 0 "Done when" (client displays API OK) is satisfied.
+- NEXT → Step 0c: ESLint + Prettier + shared env conventions; then Step O.O landing page.
+
+## Step 0c — ESLint + Prettier (not started)
+## Step O.O — Landing page (not started)
